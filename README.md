@@ -261,7 +261,7 @@ flutter clean
 
 ## Support
 
-- **Team Lead**: Zeddy
+- **Team Members**: Gideon Uduaghan, Emmanuel Olowu, Azih Emmanuel, Adedokun Taofeek and Obi Emmanuel
 - **Repository**: [Baby-Shop-Hub](https://github.com/zeddyemy/Baby-Shop-Hub)
 - **Issues**: Use GitHub Issues for bug reports and feature requests
 
