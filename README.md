@@ -1,4 +1,4 @@
-# BabyShopHub 🍼👶
+# Baby Shop Hub
 
 A modern, feature-rich mobile application for baby products shopping, built with Flutter.
 
@@ -93,7 +93,7 @@ lib/
 1. **Open the project** in your preferred IDE
 2. **Ensure Flutter SDK** is properly configured
 3. **Run `flutter doctor`** to verify setup
-4. **Start developing!** 🎉
+4. **Start developing!** 
 
 ## Screenshots
 
@@ -123,7 +123,7 @@ lib/
 - **UI Components**: Custom Material Design 3
 - **Dependencies**: See `pubspec.yaml`
 
-## 📚 Key Dependencies
+## Key Dependencies
 
 ```yaml
 dependencies:
@@ -135,7 +135,7 @@ dependencies:
   intl: ^0.19.0             # Internationalization
 ```
 
-## 🎯 Development Guidelines
+## Development Guidelines
 
 ### Code Style
 - Follow Flutter/Dart conventions
@@ -202,7 +202,7 @@ flutter clean
 - `login_screen.dart` - User authentication
 - `signup_screen.dart` - User registration
 
-## 🚧 Development Roadmap
+## Development Roadmap
 
 ### Phase 1: Foundation ✅
 - [x] Project setup and structure
