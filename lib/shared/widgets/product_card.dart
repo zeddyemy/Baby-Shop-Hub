@@ -44,13 +44,13 @@ class ProductCard extends StatelessWidget {
                     borderRadius: BorderRadius.circular(40),
                     child: Image.network(
                       product.imageUrl,
-                      height: 80,
-                      width: 80,
+                      height: 85,
+                      width: 85,
                       fit: BoxFit.cover,
                       errorBuilder: (context, error, stackTrace) {
                         return Container(
-                          height: 80,
-                          width: 80,
+                          height: 85,
+                          width: 85,
                           decoration: BoxDecoration(
                             color: Colors.grey.shade200,
                             borderRadius: BorderRadius.circular(40),
@@ -115,32 +115,30 @@ class ProductCard extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 12),
-            Text(
-              product.name,
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w600,
-                color: AppTheme.textPrimary,
-              ),
-            ),
-            const SizedBox(height: 8),
-            const Text(
-              'Time',
-              style: TextStyle(fontSize: 12, color: AppTheme.textHint),
-            ),
-            Text(
-              '₦ ${product.price.toStringAsFixed(2)}',
-              style: const TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w700,
-                color: AppTheme.textPrimary,
+            Center(
+              child: Text(
+                product.name,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600,
+                  color: AppTheme.textPrimary,
+                ),
               ),
             ),
             const Spacer(),
             Row(
               children: [
+                Text(
+                  '₦ ${product.price.toStringAsFixed(2)}',
+                  style: const TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w700,
+                    color: AppTheme.textPrimary,
+                  ),
+                ),
                 const Spacer(),
                 InkWell(
                   onTap: onFavorite,

@@ -48,12 +48,14 @@ class SearchBarField extends StatelessWidget {
             onPressed: onFilter,
             style: ElevatedButton.styleFrom(
               backgroundColor: AppTheme.primaryGreen,
+              foregroundColor: Colors.white,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
               padding: EdgeInsets.zero,
+              elevation: 0,
             ),
-            child: const Icon(Icons.tune, color: Colors.white),
+            child: const Icon(Icons.tune, color: Colors.white, size: 20),
           ),
         ),
       ],
