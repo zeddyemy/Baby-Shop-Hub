@@ -17,17 +17,17 @@ class CategoryChip extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onTap,
-      borderRadius: BorderRadius.circular(20),
+      borderRadius: BorderRadius.circular(12),
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
         decoration: BoxDecoration(
-          color: selected ? AppTheme.primaryGreen.withValues(alpha: 0.12) : Colors.white,
-          borderRadius: BorderRadius.circular(20),
+          color: selected ? AppTheme.primaryGreen : Colors.white,
+          borderRadius: BorderRadius.circular(12),
         ),
         child: Text(
           label,
           style: TextStyle(
-            color: selected ? AppTheme.primaryGreen : AppTheme.textSecondary,
+            color: selected ? Colors.white : AppTheme.primaryGreen,
             fontWeight: selected ? FontWeight.w600 : FontWeight.w500,
           ),
         ),
