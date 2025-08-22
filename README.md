@@ -2,13 +2,13 @@
 
 A modern, feature-rich mobile application for baby products shopping, built with Flutter.
 
-## 📱 About
+## About
 
 BabyShopHub is a comprehensive e-commerce mobile application designed to provide parents with easy access to quality baby products. The app features a clean, intuitive interface with modern design principles and follows industry best practices.
 
-## ✨ Features
+## Features
 
-### 🚀 Current Features
+### Current Features
 - **Splash Screen**: Beautiful animated welcome screen with app branding
 - **Authentication System**: Complete login and signup functionality
 - **Modern UI/UX**: Clean, responsive design following Material Design 3
@@ -16,7 +16,7 @@ BabyShopHub is a comprehensive e-commerce mobile application designed to provide
 - **Social Login**: Ready for Google and Facebook authentication integration
 - **Responsive Design**: Optimized for various screen sizes
 
-### 🔮 Planned Features
+### Planned Features
 - Product catalog and search
 - Shopping cart and checkout
 - User profile management
@@ -24,7 +24,7 @@ BabyShopHub is a comprehensive e-commerce mobile application designed to provide
 - Push notifications
 - Payment integration
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 lib/
@@ -40,7 +40,7 @@ lib/
 └── main.dart              # Application entry point
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 - **Primary Green**: `#129575` - Main brand color
@@ -62,7 +62,7 @@ lib/
 - Material Design 3 compliance
 - Smooth animations and transitions
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Flutter SDK (3.8.1 or higher)
@@ -95,7 +95,7 @@ lib/
 3. **Run `flutter doctor`** to verify setup
 4. **Start developing!** 🎉
 
-## 📱 Screenshots
+## Screenshots
 
 ### Splash Screen
 - Animated logo and branding
@@ -114,7 +114,7 @@ lib/
 - Password confirmation
 - Social signup options
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Framework**: Flutter 3.8.1+
 - **Language**: Dart
@@ -159,7 +159,7 @@ dependencies:
 - Test widget interactions
 - Maintain good test coverage
 
-## 🔧 Common Commands
+## Common Commands
 
 ```bash
 # Get dependencies
@@ -184,7 +184,7 @@ dart format .
 flutter clean
 ```
 
-## 📁 File Organization
+## File Organization
 
 ### Core Files
 - `main.dart` - App entry point and configuration
@@ -222,7 +222,7 @@ flutter clean
 - [ ] Analytics
 - [ ] Performance optimization
 
-## 🤝 Contributing
+## Contributing
 
 1. **Fork the repository**
 2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
@@ -238,7 +238,7 @@ flutter clean
 - `refactor:` Code refactoring
 - `test:` Adding tests
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -265,12 +265,12 @@ flutter clean
 - **Repository**: [Baby-Shop-Hub](https://github.com/zeddyemy/Baby-Shop-Hub)
 - **Issues**: Use GitHub Issues for bug reports and feature requests
 
-## 📄 License
+## License
 
 This project is proprietary and confidential. All rights reserved.
 
 ---
 
-**Happy Coding! 🚀👨‍💻**
+---
 
 *Built by the BabyShopHub Team at Aptech, Nigeria*
