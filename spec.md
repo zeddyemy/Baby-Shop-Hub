@@ -74,6 +74,8 @@ lib/
 
 ## 📋 Feature Specifications
 
+**Deadline Date:** _August 26, 2025_
+
 ### Phase 1: Foundation ✅ COMPLETED
 - [x] Project setup and architecture
 - [x] Theme system implementation
@@ -87,7 +89,7 @@ lib/
 ### Phase 2: Core Features 🚧 IN PROGRESS
 #### 2.1 Home Screen
 - **Priority**: High
-- **Estimated Time**: 3-4 days
+- **Estimated Time**: 1-2 days
 - **Requirements**:
   - Welcome message with user's name
   - Quick access to categories
@@ -98,7 +100,7 @@ lib/
 
 #### 2.2 Product Catalog
 - **Priority**: High
-- **Estimated Time**: 5-6 days
+- **Estimated Time**: 3-4 days
 - **Requirements**:
   - Product grid/list view
   - Category filtering
@@ -356,9 +358,9 @@ class Order {
 ---
 
 **Document Version**: 1.0  
-**Last Updated**: [Current Date]  
-**Next Review**: Weekly  
-**Approved By**: [Team Lead]  
+**Last Updated**: August 22, 2025  
+**Next Review**: Daily  
+**Approved By**: Emmanuel  
 
 ---
 
