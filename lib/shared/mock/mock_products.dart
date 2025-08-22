@@ -1,0 +1,60 @@
+import '../models/product.dart';
+
+const List<Product> kMockProducts = [
+  Product(
+    id: 'p1',
+    name: 'Medium Teddy Bear',
+    description: 'Soft and cuddly teddy bear suitable for ages 3+. Hypoallergenic fabric.',
+    price: 5800.00,
+    rating: 4.5,
+    ratingCount: 124,
+    imageUrl: 'https://images.unsplash.com/photo-1616596878337-9b9a7d86b9d7?w=800&q=80',
+    category: 'Toys',
+    sellerName: 'ToyLand',
+    eta: Duration(minutes: 25),
+  ),
+  Product(
+    id: 'p2',
+    name: 'Green Talking Cactus',
+    description: 'Interactive singing and talking cactus toy with safe materials.',
+    price: 17800.00,
+    rating: 3.5,
+    ratingCount: 88,
+    imageUrl: 'https://images.unsplash.com/photo-1566650554918-44f9829ba187?w=800&q=80',
+    category: 'Toys',
+    sellerName: 'HappyKids',
+    eta: Duration(minutes: 30),
+  ),
+  Product(
+    id: 'p3',
+    name: 'Soft Diapers XL',
+    description: 'Ultra soft diapers with high absorption. Size XL (10-14kg).',
+    price: 12500.00,
+    rating: 4.7,
+    ratingCount: 342,
+    imageUrl: 'https://images.unsplash.com/photo-1604404157435-69a5b7b1a39a?w=800&q=80',
+    category: 'Diapers',
+    sellerName: 'BabyCare',
+    eta: Duration(minutes: 20),
+  ),
+  Product(
+    id: 'p4',
+    name: 'Organic Baby Food Pack',
+    description: 'Assorted organic puree jars for babies 6+ months.',
+    price: 9600.00,
+    rating: 4.2,
+    ratingCount: 210,
+    imageUrl: 'https://images.unsplash.com/photo-1589927986089-35812388d1a2?w=800&q=80',
+    category: 'Food',
+    sellerName: 'FreshFarm',
+    eta: Duration(minutes: 18),
+  ),
+];
+
+const List<String> kCategories = [
+  'All',
+  'Toys',
+  'Cloths',
+  'Food',
+  'Diapers',
+];
