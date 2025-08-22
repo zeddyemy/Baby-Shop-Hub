@@ -259,7 +259,7 @@ flutter clean
    - Check for syntax errors
    - Restart the app if needed
 
-## 📞 Support
+## Support
 
 - **Team Lead**: Zeddy
 - **Repository**: [Baby-Shop-Hub](https://github.com/zeddyemy/Baby-Shop-Hub)
@@ -273,4 +273,4 @@ This project is proprietary and confidential. All rights reserved.
 
 **Happy Coding! 🚀👨‍💻**
 
-*Built with ❤️ by the BabyShopHub Team*
+*Built by the BabyShopHub Team at Aptech, Nigeria*
