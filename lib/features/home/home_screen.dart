@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/theme/app_theme.dart';
 import '../../shared/mock/mock_products.dart';
@@ -6,6 +7,7 @@ import '../../shared/models/product.dart';
 import '../../shared/widgets/search_bar_field.dart';
 import '../../shared/widgets/category_chip.dart';
 import '../../shared/widgets/product_card.dart';
+import '../../shared/providers/cart_provider.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -33,7 +35,11 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               _buildHeader(),
               const SizedBox(height: AppConstants.paddingLarge),
-              const SearchBarField(),
+              SearchBarField(
+                controller: TextEditingController(),
+                onChanged: (value) => setState(() {}),
+                onFilter: () {},
+              ),
               const SizedBox(height: AppConstants.paddingLarge),
               _buildCategories(),
               const SizedBox(height: AppConstants.paddingLarge),
@@ -119,7 +125,10 @@ class _HomeScreenState extends State<HomeScreen> {
         itemCount: products.length,
         separatorBuilder: (_, __) => const SizedBox(width: 12),
         itemBuilder: (context, index) {
-          return ProductCard(product: products[index]);
+          return ProductCard(
+            product: products[index],
+            onAddToCart: () => _addToCart(products[index]),
+          );
         },
       ),
     );
@@ -242,6 +251,23 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
         ],
+      ),
+    );
+  }
+
+  void _addToCart(Product product) {
+    final cartProvider = Provider.of<CartProvider>(context, listen: false);
+    cartProvider.addItem(product);
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('${product.name} added to cart!'),
+        backgroundColor: AppTheme.primaryGreen,
+        action: SnackBarAction(
+          label: 'View Cart',
+          textColor: Colors.white,
+          onPressed: () => Navigator.pushNamed(context, '/cart'),
+        ),
       ),
     );
   }

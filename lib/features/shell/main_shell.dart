@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import '../../core/theme/app_theme.dart';
 import '../home/home_screen.dart';
+import '../products/products_screen.dart';
+import '../cart/cart_screen.dart';
+import '../profile/profile_screen.dart';
 
 class MainShell extends StatefulWidget {
   const MainShell({super.key});
@@ -14,9 +17,9 @@ class _MainShellState extends State<MainShell> {
 
   final _pages = const [
     HomeScreen(),
-    _PlaceholderPage(title: 'Products'),
-    _PlaceholderPage(title: 'Cart'),
-    _PlaceholderPage(title: 'Profile'),
+    ProductsScreen(),
+    CartScreen(),
+    ProfileScreen(),
   ];
 
   @override
@@ -56,23 +59,6 @@ class _MainShellState extends State<MainShell> {
           label: 'Profile',
         ),
       ],
-    );
-  }
-}
-
-class _PlaceholderPage extends StatelessWidget {
-  final String title;
-  const _PlaceholderPage({required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    return SafeArea(
-      child: Center(
-        child: Text(
-          '$title page coming soon',
-          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
-        ),
-      ),
     );
   }
 }
