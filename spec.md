@@ -8,11 +8,11 @@
 **Target Audience**: Parents and caregivers  
 **Project Status**: Phase 2 Core Features Complete ✅
 
-## 📱 Application Purpose
+## Application Purpose
 
 BabyShopHub is a comprehensive mobile application designed to provide parents with easy access to quality baby products. The app serves as a one-stop solution for all baby-related shopping needs, offering a curated selection of products with a focus on quality, safety, and convenience.
 
-## 🎨 Design Requirements
+## Design Requirements
 
 ### Visual Identity
 - **Brand Colors**: 
@@ -71,7 +71,7 @@ lib/
 └── main.dart              # Application entry point ✅
 ```
 
-## 📋 Feature Specifications
+## Feature Specifications
 
 **Deadline Date:** _August 26, 2025_
 
