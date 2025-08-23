@@ -44,9 +44,9 @@ BabyShopHub is a comprehensive mobile application designed to provide parents wi
 - **Language**: Dart
 - **State Management**: Provider ✅ (Implemented)
 - **Navigation**: Flutter Navigation 2.0 ✅ (Complete routing system)
-- **Database**: Firebase Firestore (planned)
-- **Authentication**: Firebase Auth (planned)
-- **Storage**: Firebase Storage (planned)
+- **Database**: ... (unplanned)
+- **Authentication**: ... (unplanned)
+- **Storage**: ... (unplanned)
 
 ### Project Structure ✅ (Complete Implementation)
 ```
